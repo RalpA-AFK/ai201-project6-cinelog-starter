@@ -87,9 +87,10 @@ b11a9a4  fix: add deduplication check to prevent duplicate watchlist entries
 3ff3172  fix: update film retrieval method to use db.session.get in collection and watchlist services
 4647a19  feat: add watchlist model, service, and endpoint
 ```
-<!-- Placeholder — replace with a screenshot of your own `git log --oneline`.
-     (The docs commit is shown as <tip> because a commit can't contain its own hash;
-      run git log --oneline yourself for the exact final value.) -->
+
+### Screenshot
+
+![git log --oneline on feature/watchlist — 9 conventional commits, no merge commits](docs/git-log.png)
 
 Each commit is one logical change, uses Conventional Commits format, and builds on its own (verified: `create_app()` imports cleanly at every commit). No merge commits — the branch is linearly rebased on `main`.
 
